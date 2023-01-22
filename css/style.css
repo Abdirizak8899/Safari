@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins';
+    list-style-type: none;
+}
+body{
+    background-color:  #90EE90;
+}
+.char{
+    height: 20px;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    /* padding:5rem 9%; */
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 100px;
+    /* border: 2px solid green; */
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: greenyellow;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: fixed;
+    /* background-color: #f00; */
+    /* height: 100px; */
+    /* z-index: 999; */
+    width: 100%;
+    top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* padding:2rem 9%; */
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+
+}
+.brand{
+    display: flex;
+    /* border: 1px solid red; */
+    color:green;
+}
+.brand i {
+    font-size: 2em;
+    margin-right: 5px;
+}
+header ul{
+    display: flex;
+}
+
+header ul li{
+    margin-right: 25px;
+}
+header ul li a{
+    color: green;
+    transition: 0.6s ease;
+}
+header ul li a:hover{
+    color: white;
+    border-radius: 7px;
+    padding: 5px;
+    background-color: green;
+}
+header ul li a i{
+    margin-right: 7px;
+}
+
+
+.container{
+    width: 1140px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-left: 30px;
+}
+.h-img img{
+    width: 400px;
+    height: 400px;
+}
+.content{
+    width: 400px;
+    /* border : 2px solid ; */
+    text-align: center;
+    align-items: center;
+    height: 400px;
+    padding-top: 40px;
+}
+.content h2{
+    font-weight: 600;
+    color: #243407;
+    margin-bottom: 15px;
+}
+.content h1{
+    color: #243407;
+    font-size: 40px;
+}
+.content p{
+    margin-bottom: 22px;
+}
+.content .btn{
+    background-color: green;
+    color: white;
+    border-radius: 7px;
+    text-align: center;
+    padding: 12px;
+    margin-top: 10px;
+}
+.content .btn i{
+    margin-right: 5px;
+}
+h2 {
+    color: #243407;
+    margin-bottom: 5px;
+}
+.adv,.pkg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* margin-top: 200px; */
+}
+.adv .card{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 11px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.6s ease;
+    margin: 20px;
+}
+.adv .card:hover{
+    background-color: #243407;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.c-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border:#90EE90 2px solid ;
+    overflow: hidden;
+}
+.c-img img{
+    width: 300px;
+    width: 300px;
+    /* border-radius: ; */
+    position: relative;
+    top: 0px;
+    right: 50px;
+}
+.btn-c{
+    color:#90EE90;
+    border: 2px solid #90EE90;
+    padding: 10px;
+}
+.card .title h2{
+    color:#90EE90;
+}
+.card .info{
+    margin: 3px;
+}
+
+.pkg .p-card{
+    background-color: #526925;
+    width: 30em;
+    overflow: hidden;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    width: 25em;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 11px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: 0.6s ease;
+    margin: 20px;
+    border: 2px solid green;
+    color: #fff;
+}
+.pkg .p-card:hover{
+    background-color: #243407;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.pkg .p-card h2{
+    color: #90EE90;
+}
+.pkg .p-img{
+    width: 100%;
+    /* height: 300px; */
+    /* border:#90EE90 2px solid ; */
+    overflow: hidden;
+}
+.p-img img{
+    width: 400px;
+    height: 230px;
+    border-radius: 5px;
+}
+.pk{
+    height: 100px;
+}
+.pkg .p-card button{
+    color: #90EE90;
+    outline: none;
+    resize: none;
+    border: 2px solid #90EE90;
+    padding: 10px;
+    background: transparent;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #526925;
+    align-items: center;
+}
+.contact form input,.contact form textarea{
+    width: 22em;
+    padding: 6px;
+    border-radius: 7px;
+    border: #90EE90 2px solid ;
+    margin: 10px;
+    outline: none;
+    resize: none;
+}
+.contact form button{
+    border: none;
+    outline: none;
+    width: 12em;
+    background-color:#90EE90;
+    border-radius: 9px;
+    padding: 6px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 20em;
+    background-color:greenyellow;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 50px;
+    justify-content: space-around;
+}
+
+footer i{
+    margin-right: 5px;
+}
